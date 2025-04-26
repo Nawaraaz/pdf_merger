@@ -6,6 +6,14 @@ creating a virtual environment: python3 -m venv env
 
 activate env
  source/env/bin/activate
+ 
+For windows:
+ creating a virtual Environment:
+ Python-m venv env
+
+ activate env
+ .\env\scripts\activte
+ 
 
  why installation of packages in side virtual environment?
 
@@ -42,3 +50,7 @@ step:5
  Run the merger.py file: python merger.py
 
 If the above steps are correct you will see "Merged PDF files successfully and saved as merged.pdf" in terminal. A new pdf file will be appear inside pdfmerger folder by the name merged.pdf
+
+step 6:
+ After completing the process deactivate the virtual environment using: deactivate 
+ 
